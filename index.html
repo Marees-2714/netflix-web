@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color: black;">
+   <div class="head">
+    <div class="navbar">
+      <img src="netflix.jpg" alt="pic1" height="60px" width="200px">
+      <select name="language" id="language">
+          <option value="en">English</option>
+          <option value="hindi">Hindi</option>
+      </select><br>
+      <button type="button" class="btn btn-danger top-sign-in">signin</button>
+      </div>
+      <div class="top1">
+        <h1>Unlimited movies, <br>TV shows and <br>more</h1>
+        <h5>Starts at ₹149. Cancel at any time.</h5><br>
+        <h6>Ready to watch? Enter your email to create or restart your membership.</h6><br>
+      </div>
+      <form class="email-form">
+        <input type="email" placeholder="Email address" required>
+        <button type="submit">Get Started  > </button>
+    </form><br><br>
+    </div><br><br>
+    <div class="middle">
+       <h3>Trending Now</h3>
+       <select name="country" id="country">
+        <option value="In">India</option>
+        <option value="Gl">Global</option>
+        </select>
+        <select name="shows" id="shows">
+          <option value="In">Movies</option>
+          <option value="Gl">TV Shows</option>
+          </select>
+    </div><br>
+    <div class="middle-1">
+      <div class="container">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-4">
+                   <img src="kalki.jpg" class="d-block w-150px" alt="..." height="250px">
+                   <div class="content">
+                   <h1>1</h1>
+                   <h5>Recently added</h5>
+                   </div>
+                  </div>
+                  <div class="col-lg-4">
+                   <img src="maharaja.jpeg" class="d-block w-250px" alt="..." height="250px">
+                   <div class="content">
+                    <h1>2</h1>
+                    <h5>Recently added</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                   <img src="geo.jpeg" class="d-block w-150px" alt="..." height="250px">
+                   <div class="content">
+                    <h1>3</h1>
+                    <h5>Recently added</h5>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                   <img src="x fast.jpeg" class="d-block w-175px" alt="..." height="250px">
+                   <div class="content">
+                    <h1>4</h1>
+                    <h5>Recently added</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                   <img src="mingo.jpeg" class="d-block w-250px" alt="..." height="250px">
+                   <div class="content">
+                    <h1>5</h1>
+                    <h5>Recently added</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                   <img src="malaylm.jpeg" class="d-block w-150px" alt="..." height="250px">
+                   <div class="content">
+                    <h1>6</h1>
+                    <h5>Recently added</h5>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                   <img src="rebel.jpeg" class="d-block w-150px" alt="..." height="250px">
+                   <div class="content">
+                    <h1>7</h1>
+                    <h5>Recently added</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                   <img src="sanam.jpeg" class="d-block w-150px" alt="..." height="250px">
+                   <div class="content">
+                    <h1>8</h1>
+                    <h5>Recently added</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                   <img src="sector.jpeg" class="d-block w-150px" alt="..." height="250px">
+                   <div class="content">
+                    <h1>9</h1>
+                    <h5>Recently added</h5>
+                    </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div><br>
+    <br>
+    <div class="grid">
+      <section class="container-2 ">
+        <h4>More reasons to join</h4>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-12 p-5">
+            <div class="card" >
+              <div class="card-body">
+                <h5 class="card-title">Enjoy on your TV</h5>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                <img src="tvv.jpg" alt="" height="70px" width="100px">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 p-5">
+            <div class="card" >        
+              <div class="card-body">
+                <h5 class="card-title">Download your shows to watch offline</h5>
+                <p>Save your favourites easily and always have something to watch.</p>
+                <img src="download.jpg" alt="" height="80px" width="100px">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 p-5">
+            <div class="card" >
+              <div class="card-body" id="cone2">
+                <h5 class="card-title">Watch everywhere</h5>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                <img src="cone1.jpg" alt="" height="70px" width="100px">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 p-5">
+            <div class="card">
+               <div class="card-body" id="msg">
+                <h5 class="card-title">Create profiles for kids</h5>
+                <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
+                Frequently Asked Questions</p>
+                <img src="msg.jpg" alt="" height="80px" width="100px">
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>      
+    </div>
+    
+    <section>
+      <div class="faq">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="mb-5">Frequently Asked Questions</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-2 col-1"></div>
+          <div class="col-lg-6 col-md-8 col-10 p-0">
+            <a class="btn text-white" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls autoplay="multiCollapseExample1">What is Netflix? <span class="toggle-icon">+</span></a>
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card card-body">
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. <br><br>
+            You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+          </div>
+        </div>
+         <a class="btn text-white" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls autoplay="multiCollapseExample2">Where can I watch? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; + </a>
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card card-body">
+            Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+          </div>
+        </div>
+         <a class="btn text-white" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls autoplay="multiCollapseExample3">How do I cancel?   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  + </a>
+        <div class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="card card-body">
+           Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+          </div>
+        </div>
+         <a class="btn text-white" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls autoplay="multiCollapseExample4">What can I watch on Netflix? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;+ </a>
+        <div class="collapse multi-collapse" id="multiCollapseExample4">
+          <div class="card card-body">
+            Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+          </div>
+        </div>
+         <a class="btn text-white" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls autoplay="multiCollapseExample5">Is Netflix good for kids? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; + </a>
+        <div class="collapse multi-collapse" id="multiCollapseExample5">
+          <div class="card card-body">
+           The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. <br><br>
+            Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+          </div>
+        </div>
+          </div>
+          <div class="col-lg-3 col-md-2 col-1"></div>
+        </div>
+        
+      </div>
+    </section>
+
+     
+     <div class="subscription-section">
+      <p class="subscription-text">Ready to watch? Enter your email to create or restart your membership.</p>
+      <form class="subscription-form">
+          <input type="email" class="email-input" placeholder="Email address" required>
+          <button type="submit" class="submit-button">Get Started ></button>
+      </form>
+  </div>
+
+   <section class="subsec1">
+
+    <div class="site-footer">
+      <p class="footer-title">Questions? Call 000-800-919-1694</p>
+  
+      
+      <div class="footer-links">
+          <div class="footer-link-group">
+              <a href="#">FAQ</a>
+              <a href="#">Investor Relations</a>
+              <a href="#">Privacy</a>
+              <a href="#">Speed Test</a>
+          </div>
+          <div class="footer-link-group">
+              <a href="#">Help Centre</a>
+              <a href="#">Jobs</a>
+              <a href="#">Cookie Preferences</a>
+              <a href="#">Legal Notices</a>
+          </div>
+          <div class="footer-link-group">
+              <a href="#">Account</a>
+              <a href="#">Ways to Watch</a>
+              <a href="#">Corporate Information</a>
+              <a href="#">Only on Netflix</a>
+          </div>
+          <div class="footer-link-group">
+              <a href="#">Media Centre</a>
+              <a href="#">Terms of Use</a>
+              <a href="#">Contact Us</a>
+          </div>
+      </div>
+  
+      
+      <div class="language-dropdown">
+          <select class="language-select">
+              <option value="en">🌐 English</option>
+              <option value="en"> Hindi </option>
+             
+          </select>
+          
+      </div>
+  
+      
+      <div class="footer-copyright">
+        <p>Netflix India</p>
+      </div>
+  </div>
+
+   </section>
+  
+
+    </div>
+  </body>
